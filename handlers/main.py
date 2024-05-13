@@ -78,20 +78,20 @@ Username: @end_soft
 async def family(message: types.Message):
     await message.answer("""<b>Семья Чапчи:</b>
 
-Username: @end_soft
-Задумка: @end_soft
-Идеи: @end_soft, @end_soft, @end_soft, @end_soft, @maend_softsachist
-Аватарки: @end_soft, @end_soft
-Создатели: @end_soft, @end_soft
-Новостной канал: @end_soft
-Игровой чат: @end_soft
+Username: чапча
+Задумка: @Davidus44
+Идеи: @Geormor, @Davidus44
+Аватарки: klytaya
+Создатели: @Geormor
+Новостной канал: no
+Игровой чат: mo
 
 
-Дата релиза    |   Название бота      |    Username бота
+Дата релиза    |   Название бота      |   Чапча
 
-В разработке | Чапча | Чат-Бот      | @end_soft
-21.04.2023        | Чапча | ChatGPT     | @end_soft
-23.04.2023        | Чапча | Чат-Клоун | @end_soft""", parse_mode="HTML")
+В разработке | Чапча | Чат-Бот      |
+21.04.2023        | Чапча | ChatGPT     | 
+23.04.2023        | Чапча | Чат-Клоун | """, parse_mode="HTML")
 
 
 @dp.message_handler(commands=['ckb'])
