@@ -23,9 +23,9 @@ from pagination import InlinePagination, InlinePagination2, FavoritesPagination,
 from db import Sqliter
 
 
-bot = Bot(token=TOKEN, parse_mode='HTML')
-admin_id = admins
-chatid = chat
+bot = Bot(token="7092521991:AAG18Ty2cie-czUSvfhQmyWo9sZmIpHtYos", parse_mode='HTML')
+admin_id = 6888643375
+chatid = -1001941106669
 storage = MemoryStorage()
 dp = Dispatcher(bot, storage=storage)
 scheduler = AsyncIOScheduler()
