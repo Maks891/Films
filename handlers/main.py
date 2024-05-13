@@ -42,10 +42,10 @@ async def process_start_command(message: types.Message):
 async def helpp(message: types.Message):
     await message.answer("""<b>Информация о Чапче | Чат-Боте:</b>
 
-Username: @end_soft
-Создатели: @end_soft, @end_soft
-Новостной канал: @end_soft
-Игровой чат: @end_soft
+Username: чапча
+Создатели: @geormor
+Новостной канал: no
+Игровой чат: no
 
 <b>Что умеет Чапча | Чат-Бот:</b>
 
@@ -90,7 +90,7 @@ Username: чапча
 Дата релиза    |   Название бота      |   Чапча
 
 В разработке | Чапча | Чат-Бот      |
-21.04.2023        | Чапча | ChatGPT     | 
+21.04.2023        | Чапча |      
 23.04.2023        | Чапча | Чат-Клоун | """, parse_mode="HTML")
 
 
@@ -158,7 +158,7 @@ async def process_ckb_command(message: types.Message):
                             await bot.send_message(buid, f"""<b>Вы были забанены!</b>
 <b>Причина:</b> {prich}
 
-Если Вы были забанены по ошибке, напишите разработчику: @end_soft""", parse_mode="HTML")
+Если Вы были забанены по ошибке, напишите разработчику: @Geormor""", parse_mode="HTML")
                         except:
                             pass
                 except:
